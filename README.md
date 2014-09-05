@@ -1,6 +1,6 @@
 # Google Analytics Vimeo Video Tracking
 
-A Google Analytics module for measuring Vimeo Player Events. The module supports Universal Analytics and Classic Google Analytics. Derived from: http://www.sanderheilbron.nl/vimeo.ga.js/
+A Google Analytics module for measuring Vimeo Player Events. The module supports Universal Analytics, Classic Google Analytics, and Google Tag Manager. Derived from: http://www.sanderheilbron.nl/vimeo.ga.js/
 
 I created this version because a site I was working used code to create the iframe for the video dynamically so that the video was not loaded until the reader actually wanted to play the video. The code as it was written requires that the video iframe is already on the page and uses a jQuery ready function to get the video iframe.
 
@@ -11,9 +11,13 @@ This code has been changed to allow you to call start and stop methods to track 
     <script src="path/to/video.ga.min.js"></script>
 
 To start tracking in your javascript call:
+
     video.start(iframe element);
+
 To stop tracking in your javascript call:
+
     video.stop();
+
 ## Options
     config {
       progress: false,  // Property to enable progress tracking
