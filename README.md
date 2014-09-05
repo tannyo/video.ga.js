@@ -4,7 +4,9 @@ A Google Analytics module for measuring Vimeo Player Events. The module supports
 
 I created this version because a site I was working used code to create the iframe for the video dynamically so that the video was not loaded until the reader actually wanted to play the video. The code as it was written requires that the video iframe is already on the page and uses a jQuery ready function to get the video iframe.
 
-This code has been changed to allow you to call start and stop methods to track a video.
+This code has been changed to allow you to call start and stop methods to track a video and does not require jQuery. If you happen to pass the start method a jQuery iframe element, the code will convert it to native javascript.
+
+The code has been run through [JSLint](http://jslint.com/) and [JSHint](http://www.jshint.com/). All global variables have been defined and the code follows Douglas Crockford's [code convensions](http://javascript.crockford.com/code.html).
 
 ## Usage
 
@@ -61,6 +63,10 @@ Tested in the latest versions of Chrome, Firefox, Safari, and IE. Also tested on
 
 Classic Google Analytics Tracking Code (asynchronous), Universal Analytics Tracking Code or Google Tag Manager container code
 The end user must be using a browser that supports the HTML5 postMessage feature. Most modern browsers support postMessage, though Internet Explorer 7 does not support it.
+
+## Future Enhancements
+
+In the future I intend to add support for YouTube videos. If you want to add that feature, please feel free to fork this repository and code to your hearts intent. I'm just not available for side projects like this, so it may take a while.
 
 ## Issues
 
