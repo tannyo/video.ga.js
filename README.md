@@ -6,6 +6,8 @@ I created this version because a site I was working used code to create the ifra
 
 This code has been changed to allow you to call start and stop methods to track a video and does not require jQuery. If you happen to pass the start method a jQuery iframe element, the code will convert it to native javascript.
 
+This code will only track one video at a time. The stop method must be called for the "Closed video at %" action to be tracked. The way I use the code is that I have a click event on the Play Video button which creates a modal dialog with the iframe. When the iframe is created the start method is called. When the modal dialog is closed, destroying the iframe, the stop method is called.
+
 The code has been run through [JSLint](http://jslint.com/) and [JSHint](http://www.jshint.com/). All global variables have been defined and the code follows Douglas Crockford's [code convensions](http://javascript.crockford.com/code.html).
 
 ## Usage
