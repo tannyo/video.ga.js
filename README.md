@@ -16,11 +16,11 @@ The code has been run through [JSLint](http://jslint.com/) and [JSHint](http://w
 
 To start tracking in your javascript call:
 
-    video.start(iframe element);
+    videoTrack.start(iframe element);
 
 To stop tracking in your javascript call:
 
-    video.stop();
+    videoTrack.stop();
 
 ## Options
     config {
@@ -30,7 +30,7 @@ To stop tracking in your javascript call:
 
 To call with one or more options set, use as the second start parameter and object.
 
-    video.start(iframe,{seek: true});
+    videoTrack.start(iframe,{seek: true});
 
 ## Basic event trackers
 
