@@ -60,11 +60,11 @@ The end user must be using a browser that supports the HTML5 postMessage feature
 
 ## Issues
 
-Have a bug? Please create an [issue](./issues) here on GitHub!
+Have a bug? Please create an [issue](https://github.com/tannyo/video.ga.js/issues) here on GitHub!
 
 ## Contributing
 
-Want to contribute? Great! Just fork the project, make your changes and open a [pull request](./pulls).
+Want to contribute? Great! Just fork the project, make your changes and open a [pull request](https://github.com/tannyo/video.ga.js/pulls).
 
 ## Changelog
 0.1 (September 4, 2014):
@@ -75,7 +75,7 @@ Want to contribute? Great! Just fork the project, make your changes and open a [
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Tanny O'Haley
+Copyright (c) 2014 [Tanny O'Haley](http://tanny.ica.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
